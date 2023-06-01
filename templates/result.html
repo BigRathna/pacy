@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Entities Detected:</h1>
+    <ul>
+        {% for entity in entities %}
+        <li>{{ entity[0] }} - {{ entity[1] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
